@@ -1,0 +1,9 @@
+{
+  "name": "jweixin",
+  "version": "1.0.1",
+  "description": "wechat js-sdk",
+  "main": "index.js",
+  "author": "moosoul <moosoul@965work.com>",
+  "license": "MIT",
+  "types": "index.d.ts"
+}
