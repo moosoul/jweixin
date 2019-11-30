@@ -10,5 +10,21 @@
 ### npm
 
 ```bash
-npm install
+npm install --save https://github.com/moosoul/jweixin.git
+```
+
+### yarn
+
+```bash
+yarn add https://github.com/moosoul/jweixin.git
+```
+
+### 前端代码
+
+```javascript
+import { wx } from "jweixin";
+wx.config({
+  debug: process.env.NODE_ENV === "development",
+  ...params
+});
 ```
